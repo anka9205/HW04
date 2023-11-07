@@ -1,0 +1,8 @@
+name: CI Workflow
+on: [push]
+
+jobs:
+    test:
+        runs-on: Windows,
+        step:
+            run echo Hello
