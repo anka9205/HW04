@@ -4,5 +4,5 @@ on: [push]
 jobs:
     test:
         runs-on: Windows,
-        step:
+        steps:
             run echo Hello
